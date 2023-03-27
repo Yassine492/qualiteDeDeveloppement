@@ -9,7 +9,7 @@ import javax.persistence.Id;
 public class Voiture {
 
     public Voiture(){}
-    public Voiture(String marque, float prix) {
+    public Voiture(String marque, int prix) {
         this.marque = marque;
         this.prix = prix;
     }
@@ -24,16 +24,16 @@ public class Voiture {
         this.marque = marque;
     }
 
-    public float getPrix() {
+    public int getPrix() {
         return prix;
     }
 
-    public void setPrix(float prix) {
+    public void setPrix(int prix) {
         this.prix = prix;
     }
 
     String marque;
-    float prix;
+    int prix;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
