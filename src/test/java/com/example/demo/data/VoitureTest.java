@@ -9,6 +9,8 @@ public class VoitureTest {
 
     @Test
     void creerVoiture(){
+        Voiture v = new Voiture();
+
     }
 
 }
