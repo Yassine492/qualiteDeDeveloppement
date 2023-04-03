@@ -1,5 +1,10 @@
 package com.example.demo.data;
 
+import org.springframework.stereotype.Service;
+
+// Service => disponible (tjrs)
+
+
 public class Echantillon {
     public int getNombrebVoiture() {
         return nombrebVoiture;
