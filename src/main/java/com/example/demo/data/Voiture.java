@@ -14,7 +14,7 @@ public class Voiture {
         this.prix = prix;
     }
 
-    int id;
+    private int id;
 
     public String getMarque() {
         return marque;
@@ -32,8 +32,8 @@ public class Voiture {
         this.prix = prix;
     }
 
-    String marque;
-    int prix;
+    private String marque;
+    private int prix;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
